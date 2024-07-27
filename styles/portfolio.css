@@ -1,0 +1,82 @@
+
+/* text font add */
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+/* shared style */
+.text-primary{
+    color: tomato;
+}
+
+.dark-2{
+    color: #242424;
+}
+.btn-primary{
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 1px;
+    border: none;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #242424;
+    align-items: center;
+}
+
+
+/* banner style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.banner-highlight {
+    font-weight: bold;
+    color: tomato;
+}
+
+.banner-profile-pic {
+    width: 500px;
+}
