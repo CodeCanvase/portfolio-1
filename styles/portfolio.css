@@ -26,6 +26,16 @@
     border: none;
 }
 
+
+
+.section-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #242424;
+
+}
+
+
 /* Nav styles */
 nav{
     display: flex;
@@ -78,5 +88,13 @@ nav ul li a {
 }
 
 .banner-profile-pic {
-    width: 500px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* about section */
+
+.about {
+    margin: 50px 200px;
+    text-align: center;
 }
